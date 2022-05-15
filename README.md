@@ -4,6 +4,8 @@ Instagram allows you to export your data from your account using the instruction
 This project is python code that will easily convert the data dump into HTML so it can be printed or easily viewed. Please note, the only data that this handles is your initial description and the image or video. Comments are downloaded in the data files but there is no way to associate the comments with its post.
 
 #How To Use
+
+**Instagram has added an HTML option when downloading. This is a great option but if you want to download and process with this system make sure to choose JSON as the download option.
 <ol>
 <li>Request your data download from Instagram using the instructions <a href="https://help.latest.instagram.com/181231772500920?helpref=related">https://help.latest.instagram.com/181231772500920?helpref=related</a></li>
 <li>Wait for the email telling you that your download is ready</li>
