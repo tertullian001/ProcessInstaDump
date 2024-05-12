@@ -14,7 +14,6 @@ This project is python code that will easily convert the data dump into HTML so 
 <li>Download all of the files associated with your data export.
 <ul>
 <li>I do not regularly post to Instagram and mine was 4 zip files.</li>
-<li>I believe all downloads will be a minimum of 2 zip files. One contains the account data files and the other will contain the images/videos and a media json file</li>
 </ul>
 </li>
 <li>Copy all of the zip files into a new directory</li>

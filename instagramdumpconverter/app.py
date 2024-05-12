@@ -186,13 +186,15 @@ def run(argv):
 
     srcDir = "%s%s" % (workingDir, "%s%s" % (templateDir, "css"))
     outputDir = "%s%s" % (input_dir, "css")
-    shutil.rmtree(outputDir)
+    if os.path.exists(outputDir) :
+        shutil.rmtree(outputDir)
     os.mkdir(outputDir)
     copytree(srcDir, outputDir)
 
     srcDir = "%s%s" % (workingDir, "%s%s" % (templateDir, "js"))
     outputDir = "%s%s" % (input_dir, "js")
-    shutil.rmtree(outputDir)
+    if os.path.exists(outputDir):
+        shutil.rmtree(outputDir)
     os.mkdir(outputDir)
     copytree(srcDir, outputDir)
 
